@@ -12,7 +12,7 @@
             <div class="post-content">
 
                 <div class="container">
-                    <h2 class="text-center">Da Vinciho obrazy</h2>
+                    <h2 class="text-center">Lorem ipsum</h2>
                         <ul class="menu controls">
                             <?php gallery_nav(); ?>
                         </ul>

@@ -8,8 +8,6 @@ $navigation = [
 
     [ 'gallery.php', 'Galéria', ],
 
-    [ 'about.php', 'O mne', ],
-
     [ 'contact.php', 'Kontakt', ],
 
 ];
@@ -30,9 +28,6 @@ switch ( $webPage_name ) {
         break;
     case 'gallery':
         $webPage_name = 'galéria';
-        break;
-    case 'about':
-        $webPage_name = 'o mne';
         break;
     case 'contact':
         $webPage_name = 'kontakt';

@@ -12,7 +12,10 @@
             <section class="container contact-float-handler"> <br><br>
 
                 <form action=""> <br>
-                    <h1>Napíš nám správu</h1><br>
+                    <div class="form-main">
+                    <h1>Napíš nám správu</h1>
+                    </div>
+                    <br>
                     <div class="form-main">
                         <label for="name">Meno</label><br>
                         <input type="name" id="name" name="name" value=""> <br>
@@ -39,11 +42,11 @@
                     <li><?= $krajina ?></li>
                     <li><i class="fa fa-phone"></i><a href="tel:<?= $phone_contact ?>"><?= $phone_contact ?></a></li>
                     <li><i class="fa fa-envelope"></i><a href="mailto:<?= $email_contact ?>"><?= $email_contact ?></a></li>
+                <br>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.4870707916275!2d17.03201571579583!3d48.1829181559807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8c99d5d0a1fd%3A0xb3121fd859bc66d!2sChrob%C3%A1kova%2C%20841%2002%20Bratislava!5e1!3m2!1ssk!2ssk!4v1615495765465!5m2!1ssk!2ssk" class="iframe" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
                 </ul>
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.036450469409!2d17.031723516034134!3d48.18344217922713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8c979c910b33%3A0xbc48f5180b390f3d!2sChrob%C3%A1kova%206%2C%20841%2002%20D%C3%BAbravka!5e1!3m2!1sen!2ssk!4v1612283390780!5m2!1sen!2ssk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                </iframe> <br><br><br><br>
-
+                
             </section>
 
         </article>

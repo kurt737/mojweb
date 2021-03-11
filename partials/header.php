@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Môj web / <?= ucfirst($webPage_name) ?></title>
+	<title>WWW / <?= ucfirst($webPage_name) ?></title>
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin,latin-ext">
     <link rel="stylesheet" href="assets/css/font-awesome.css">

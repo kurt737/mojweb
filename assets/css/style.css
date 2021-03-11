@@ -43,8 +43,6 @@ strong {
 
 .menu {
 	list-style: none;
-	padding-left: 0;
-
 }
 
 .menu li {
@@ -156,7 +154,7 @@ strong {
 }
 
 .post-header {
-	background: url('../img/cover.jpg');
+	background: url('../img/cover.jpg') top no-repeat;
 	background-size: cover;
 
 }
@@ -216,31 +214,9 @@ strong {
 	font-size: 0;
 }
 
-.gallery img {
-	margin-left: 35px;
-	margin-bottom: 35px;
-	width: 33.333333333%;
-	height: auto;
-	max-width: 100%;
 
-}
 
-#overlay {
-	background: rgba(0,0,0,.7);
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 20;
-	text-align: center;
-}
 
-#overlay img {
-	margin-top: 10%;
-	border: 5px solid white;
-	border-radius: 5px;
-}
 
 /* HOMEPAGE */
 .homepage .post-header {
@@ -291,10 +267,7 @@ strong {
     border-radius: 0.1875em;
 }
 
-.homepage .info {
-	background: url(../img/home/supa.png)center -146px no-repeat;
-    height: 40em;
-}
+
 
 .homepage .float {
 	float: right;
@@ -480,29 +453,11 @@ strong {
 	float: right;
 }
 
-/* ABOUT */
-.about .post-header {
-
-
-}
-
-.workers .container{
-	width: 80%;
-}
-
-.workers {
-	color: #fff;
-	background-color: #323232;
-}
-
-.workers {
-	padding-top: 2.5em;
-	padding-bottom: 10em;
-}
 
 
 
 /* CONTACT */
+
 
 
 .contact-float-handler h1 {
@@ -511,6 +466,7 @@ strong {
 
 form div {
 	display: inline-block;
+    padding-left: 40px;
 }
 
 .contact form,
@@ -537,7 +493,7 @@ form div {
 
 .contact textarea {
 	height: 17.9375em;
-	width: 42em;
+	width: 44.5em;
 }
 
 .contact label {
@@ -565,6 +521,7 @@ form div {
 form,
 .contact .personal {
 	float: none;
+    margin-bottom: 5em;
 }
 
 
@@ -580,9 +537,27 @@ form,
 	font-weight: lighter;
 }
 
-.contact .personal li:nth-child(6) {
-	margin-top: 2.1875em;
-}
+
+
+.iframe { width: 600px;
+    height: 450px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
@@ -669,16 +644,195 @@ footer li:last-child:after {
 	color:  #ffcc00;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row > .column2 {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+  float: left;
+  width: 33.3%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px; 
+}
+
+.modal-content2 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 650px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES */
 @media ( max-width: 1150px ) {
 
 	.nav-bar .container {
 		padding-right: 0;
 	}
-
+    
 	.navigation li:last-child {
 		border-right: none;
 	}
+    .iframe { width: 100%;
+    height: 100%;
+    }
 
 }
 
@@ -705,6 +859,7 @@ footer li:last-child:after {
 		width: 80%;
 		margin: auto;
 		margin-top: 2em;
+        margin-bottom: 5em;
 		text-align: center;
 	}
 
@@ -723,11 +878,7 @@ footer li:last-child:after {
 	}
 }
 
-@media ( max-width: 877px ) {
-	.homepage .post-title {
-		font-size: 2.7125em;
-	}
-}
+
 
 @media ( max-width: 848px ) {
 
@@ -773,20 +924,21 @@ footer li:last-child:after {
 
 }
 
-@media ( max-width: 723px ) {
-	.homepage .post-title {
-		font-size: 2.6em;
-	}
-}
+
 
 @media ( max-width: 720px ) {
 
-	.nav-bar .logo,
-	.navigation {
+	.logo, .nav-bar {
 		float: none;
-		width: 100%;
+		
 	}
 
+    .navigation{
+		float: none;
+		width: 100%;
+        padding-left: 20%;
+	}
+    
 	.nav-bar .logo {
 		font-size: 2.5em;
 		text-align: center;
@@ -798,6 +950,7 @@ footer li:last-child:after {
 
 	.navigation {
 		border-top: 1px solid #cecece;
+        margin: auto;
 	}
 
 	.navigation li {
@@ -815,22 +968,22 @@ footer li:last-child:after {
 	.post-header {
 		text-align: center;
 	}
+    
+    .homepage .post-header {
+		text-align: center;
+	}
 
 }
 
 @media ( max-width: 766px ) {
 
-	.gallery img {
-		width: 50%;
-	}
 
-	.post-content {
-		padding-bottom: 0;
-	}
+
 
 	footer .logo {
 		margin-left: 13%;
 	}
+    
 
 }
 
@@ -842,12 +995,12 @@ footer li:last-child:after {
 
 @media ( max-width: 695px ) {
 	.homepage .post-header {
+        height: 25em;
 		text-align: center;
 	}
-	.homepage .post-title {
-		padding: 0.4em 0.8em;
-		font-size: 2.4em;
-	}
+    
+
+
 
 }
 
@@ -972,11 +1125,7 @@ footer li:last-child:after {
 		line-height: 2.3em;
 	}
 
-	.post-title {
-		font-size: 3.2em;
-		line-height: 1.1em;
-		text-align: center;
-	}
+	
 
 	.homepage .info .fa {
 		margin-right: 10px;
@@ -1010,11 +1159,7 @@ footer li:last-child:after {
 	}
 }
 
-@media ( max-width: 430px ) {
-	.gallery img {
-		width: 100%;
-	}
-}
+
 
 @media ( max-width: 424px ) {
 	.clients .img-right,
@@ -1032,3 +1177,15 @@ footer li:last-child:after {
 		text-align: left;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

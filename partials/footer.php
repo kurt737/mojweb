@@ -20,7 +20,7 @@
         </p>
 
         <p class="author">
-            © 2021 web.sk
+            © web.sk
         </p>
 
         <ul class="menu nav-footer">

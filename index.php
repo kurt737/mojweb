@@ -11,7 +11,7 @@
 
             <div class="post-content">
                 <div class="container">
-                    <h2 class="text-center">I sit in the corner... and look at the paintings.</h2>
+                    <h2 class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
                 </div>
             </div>
 
