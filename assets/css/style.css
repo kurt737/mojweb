@@ -887,9 +887,7 @@ img.hover-shadow {
 
 @media ( max-width: 848px ) {
 
-	.logo {
-		margin: 0.2em;
-	}
+
 
 	.navigation a {
 		padding: 1em 0;
