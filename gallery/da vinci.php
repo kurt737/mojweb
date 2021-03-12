@@ -11,13 +11,13 @@
     <img src="assets/img/gallery/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="assets/img/gallery/5.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="assets/img/gallery/8.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
     <img src="assets/img/gallery/6.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
     <div class="column">
-    <img src="assets/img/gallery/8.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="assets/img/gallery/5.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -32,7 +32,7 @@
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="assets/img/gallery/5.jpg" style="width:100%">
+      <img src="assets/img/gallery/8.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
@@ -42,7 +42,7 @@
       
       <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="assets/img/gallery/8.jpg" style="width:100%">
+      <img src="assets/img/gallery/5.jpg" style="width:100%">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -57,13 +57,13 @@
       <img class="demo cursor" src="assets/img/gallery/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/img/gallery/5.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      <img class="demo cursor" src="assets/img/gallery/8.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
     </div>
     <div class="column">
       <img class="demo cursor" src="assets/img/gallery/6.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
       <div class="column">
-      <img class="demo cursor" src="assets/img/gallery/8.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mountains and fjords">
+      <img class="demo cursor" src="assets/img/gallery/5.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mountains and fjords">
     </div>
   </div>
 </div>

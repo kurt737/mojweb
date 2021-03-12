@@ -14,10 +14,10 @@
     <img src="assets/img/gallery/3.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="assets/img/gallery/4.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="assets/img/gallery/7.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
     <div class="column">
-    <img src="assets/img/gallery/7.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="assets/img/gallery/4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -37,12 +37,12 @@
 
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="assets/img/gallery/4.jpg" style="width:100%">
+      <img src="assets/img/gallery/7.jpg" style="width:100%">
     </div>
       
       <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="assets/img/gallery/7.jpg" style="width:100%">
+      <img src="assets/img/gallery/4.jpg" style="width:100%">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -60,10 +60,10 @@
       <img class="demo cursor" src="assets/img/gallery/3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/img/gallery/4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="assets/img/gallery/7.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
       <div class="column">
-      <img class="demo cursor" src="assets/img/gallery/7.jpg" style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+      <img class="demo cursor" src="assets/img/gallery/4.jpg" style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
     </div>
   </div>
 </div>
