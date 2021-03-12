@@ -94,7 +94,13 @@ strong {
 	margin-right: 0.3em;
 }
 
+.menu.personal {
+    padding-left: 0px;
+}
 
+.menu.controls {
+    padding-left: 0px;
+}
 
 
 
@@ -466,7 +472,6 @@ strong {
 
 form div {
 	display: inline-block;
-    padding-left: 40px;
 }
 
 .contact form,
@@ -972,20 +977,24 @@ img.hover-shadow {
     .homepage .post-header {
 		text-align: center;
 	}
-
-}
-
-@media ( max-width: 766px ) {
-
-
-
+    
+    	footer p {
+		width: 100%;
+		text-align: center;
+	}
 
 	footer .logo {
-		margin-left: 13%;
+		margin-bottom: 0;
+		margin-left: 0;
 	}
-    
+
+	footer .author {
+		margin-top: 1.7em;
+	}
 
 }
+
+
 
 @media ( max-width: 712px ) {
 	.homepage .info h2 {
@@ -1034,9 +1043,7 @@ img.hover-shadow {
 		font-size: 1.33em;
 	}
 
-	footer .logo {
-		margin-left: 6%;
-	}
+
 
 	
 	.all-stats {

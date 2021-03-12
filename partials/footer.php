@@ -31,7 +31,6 @@
 
 </footer>
 
-<script src="assets/js/lightbox.js"></script>
 
 </body>
 </html>
