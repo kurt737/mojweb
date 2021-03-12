@@ -12,7 +12,7 @@
             <div class="post-content">
 
                 <div class="container">
-                    <h2 class="text-center">Lorem ipsum</h2>
+                    <h2 class="text-center">"I sit in the corner... and look at the paintings"</h2>
                         <ul class="menu controls">
                             <?php gallery_nav(); ?>
                         </ul>

@@ -102,6 +102,10 @@ strong {
     padding-left: 0px;
 }
 
+.menu.nav-footer {
+    padding-left: 0px;
+}
+
 
 
 /* NAVIGATION */
@@ -161,7 +165,7 @@ strong {
 
 .post-header {
 	background: url('../img/cover.jpg') top no-repeat;
-	background-size: cover;
+	background-size:cover;
 
 }
 
@@ -172,7 +176,10 @@ strong {
 	border-radius: 0.15555555555555556em; /* 7/45 */
 	display: inline-block;
 	text-transform: uppercase;
+}
 
+h1 {
+    font-size: 1.7em;
 }
 
 .post-content {
@@ -498,7 +505,7 @@ form div {
 
 .contact textarea {
 	height: 17.9375em;
-	width: 44.5em;
+	width: 42em;
 }
 
 .contact label {
@@ -1021,6 +1028,10 @@ img.hover-shadow {
 	.services:nth-child(2) {
 		margin: 5em auto;
 	}
+    
+    h1 {
+    font-size: 1.2em;
+    }
 }
 
 @media ( max-width: 590px ) {
@@ -1156,6 +1167,10 @@ img.hover-shadow {
 	.homepage .info .fa {
 		margin-right: 25px;
 	}
+    
+    h1 {
+    font-size: 1em;
+    }
 }
 
 @media ( max-width: 448px) {
